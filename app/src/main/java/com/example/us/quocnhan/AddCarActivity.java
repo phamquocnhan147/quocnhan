@@ -50,6 +50,7 @@ public class AddCarActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 ca.xoatime(engay.getText().toString());
+
                 finish();
             }
         });
